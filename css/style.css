@@ -43,6 +43,7 @@ a:hover {
 
 .main__imagem {
   background: url("../img/home.jpg");
+  opacity: .5;
   background-size: cover;
   text-align: center;
   height: 500px;
@@ -51,8 +52,12 @@ a:hover {
   background-size: cover;
 }
 
+.main__texto {
+  padding-top: 100px;
+}
+
 .card {
-  border-color: #2f2f2f;
+  border-color: #474747;
   display: flex;
   align-items: center;
   margin: 0 auto;
