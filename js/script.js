@@ -139,3 +139,6 @@ const result_cor = document.getElementById("cor-tab")
             }
         }
     }
+
+
+    //otimização de códigos
