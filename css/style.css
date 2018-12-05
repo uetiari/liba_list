@@ -77,7 +77,7 @@ a:hover {
 }
 
 /* Sobre */
-.sobre__div {
+.sobre__div, .rest{
   display: flex;
   justify-content: center;
 }
