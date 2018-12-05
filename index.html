@@ -3,9 +3,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Mirza" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+        
 
     <title>Guia Liba</title>
 </head>
@@ -34,22 +35,89 @@
     </div>
 </header>
 <body>
-    <main>
-        <div class="main__imagem">
+
+    <!-- Começo da Home -->
+        <section class="main__imagem">
             <div class="main__texto">
-                <div class="card text-center bg-light shadow p-3 mb-5 bg-white rounded" style="width: 500px;">
+                <div class="card text-center bg-light shadow p-3 rounded" style="width: 450px;">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="/guia" class="btn btn-transparent">Go somewhere</a>
+                        <h5 class="card-title text-black-50">Guia de Restaurantes da Liberdade</h5>
                     </div>
                 </div>
             </div>
-        </div>
-    
-    </main>
-    <footer>
+        </section>
+<!-- Fim da Home -->
 
+<!-- Começo intro -->
+    <div class="container">
+        <section class="intro mt-4 text-center">
+            <h5 class="text-dark">Um guia feito por uma moradora local </h5>
+            <p class="text-dark"> Suriu como uma necessidade de apresentar restaurantes interessantes para amigas que moram fora e estavam passeando pela cidade de São Paulo. </p>
+        </section>
+    </div>
+<!-- fim intro -->
+
+    <!-- Começo da Guia -->
+    <section class="guia bg-light p-4">
+        <div class="container">
+            <h3 class="text-dark">Qual culinária você quer pesquisar</h3>
+        <ul class="nav nav-tabs nav-fill">
+            <li class="nav-item">
+                <a href="#jap-tab" id="japones" data-toggle="tab">Japonês</a>
+            </li>
+            <li class="nav-item">
+                <a href="#chi-tab" id="chines" data-toggle="tab">Chinês</a>
+            </li>            
+            <li class="nav-item">
+                <a href="#tai-tab" id="taiwan" data-toggle="tab">Taiwanês</a>
+            </li>
+            <li class="nav-item">
+                <a href="#cor-tab" id="corea" data-toggle="tab">Coreano</a>
+            </li>
+        </ul>
+        
+
+        <div class="tab-content">
+            <div class="tab-pane active in" id="jap-tab">
+                <p>Aqui vai o conteúdo da aba Japonês.</p>
+            </div>
+            <div class="tab-pane" id="chi-tab">
+                <p>Aqui vai o conteúdo da aba Chinês.</p>
+            </div>
+            <div class="tab-pane" id="tai-tab">
+                <p>Aqui vai o conteúdo da aba Taiwanês.</p>
+            </div>
+            <div class="tab-pane" id="cor-tab">
+                <p>Aqui vai o conteúdo da aba Coreano.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Fim do Guia -->
+
+    <!-- Início do Sobre -->
+    <section class="sobre bg-light mt-4 p-3">
+        <div class="container">
+                <h3 class="text-dark">Sobre o Bairro</h3>
+            <div class="sobre__div">
+                
+                <div class="sobre__texto col-8">            
+                <p class="text-dark"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem mollis aliquam ut porttitor leo a diam sollicitudin. Egestas quis ipsum suspendisse ultrices gravida. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Pulvinar pellentesque habitant morbi tristique senectus et. Aenean pharetra magna ac placerat vestibulum lectus. Sit amet dictum sit amet justo. Fusce ut placerat orci nulla pellentesque dignissim enim sit. Turpis in eu mi bibendum neque egestas congue quisque egestas. Tempus egestas sed sed risus pretium quam vulputate. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Aliquet nec ullamcorper sit amet risus nullam eget felis. Enim sed faucibus turpis in eu mi bibendum. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Ornare lectus sit amet est placerat in egestas erat. Quis vel eros donec ac odio tempor orci dapibus. Volutpat est velit egestas dui id.</p>
+                </div>
+                <div class="sobre__imagem col-4">
+                    <img src="img/teste_sobre.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim do Sobre -->
+
+    <footer>
+        <p class="text-light bg-secondary p-3 text-center"> Criado por Ariane Ueti | Front End Developer | { reprograma }</p>
     </footer>
     </body>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </html>

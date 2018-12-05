@@ -6,9 +6,9 @@
 
 
 body {
-  font-family: 'Mirza', cursive, Arial, Helvetica, sans-serif;
-  color: darkgrey;
-  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0000;
+  font-size: 15px;
 }
 
 a {
@@ -49,7 +49,6 @@ a:hover {
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .main__texto {
@@ -66,9 +65,21 @@ a:hover {
 /* Main */
 
 /* Guia */
-.busca {
+.nav-tabs{
+  padding: 2px;
+  
   display: flex;
-  justify-content: center;
-  margin: 20px auto;
   
 }
+/* Guia */
+.tab-content p{
+  color: #000000;
+}
+
+/* Sobre */
+.sobre__div {
+  display: flex;
+  justify-content: center;
+}
+
+/* sobre */
