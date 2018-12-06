@@ -1,6 +1,7 @@
 const data = [{
     "name" : "Kidoairaku",
     "pais" : "Japão",
+    "src" : "ari-7",
     "local" : "http://goo.gl/maps/Drk4da6k6az",
     "review" : "Administrado por uma família tradicional japonesa e de artistas da cultura, o Kidoairaku proporciona comida com sabor muito próximo ao caseiro, a confort food, com porções bem generosas. Ambiente muito aconchegante. "
 },
@@ -121,13 +122,13 @@ const result_cor = document.getElementById("cor-tab")
         result_chi.innerHTML = ' '
         result_tai.innerHTML = ' '
         result_cor.innerHTML = ' '
-    
+
         for(const item of data){
             if(item.pais === nacionalidade){
                 destino.innerHTML += `
                 <div class="rest">
                 <div class="img_rest col-3">
-                    <img src="..img/ari-7.svg"/>
+                    <img src="img/${item.src}.svg"/>
                 </div>
                 <div class="text_rest col-9">
                     <h3>${item.name}</h3>
