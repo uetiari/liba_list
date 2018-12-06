@@ -127,7 +127,7 @@ const result_cor = document.getElementById("cor-tab")
                 destino.innerHTML += `
                 <div class="rest">
                 <div class="img_rest col-3">
-                    <img src=" "/>
+                    <img src="..img/ari-7.svg"/>
                 </div>
                 <div class="text_rest col-9">
                     <h3>${item.name}</h3>

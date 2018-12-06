@@ -2,26 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #0000;
-  font-size: 15px;
+  font-family: 'poppins', Arial, sans-serif;
+  color: #36393b;
+  font-size: 17px;
 }
 
 a {
   text-decoration: none;
+  color: #36393b;
+}
+a:hover {
+  color: #a31621;
 }
 
-a:hover {
-  color: red;
-}
+/* https://coolors.co/a31621-36393b-bfc0c0-ffffff-b0a1ba */
 
 /* NAVBAR */
 .navbar {
-  color: #2f2f2f;
+  z-index: 99999;
+  
 }
 
 .navbar-nav {
@@ -34,50 +38,45 @@ a:hover {
 /* fim NAVBAR */
 
 /* Main */
-.main__filter{
-  background-color: rgba(219, 3, 3, 0.795);
-  width: auto;
-  height: 200px;
-  z-index: 99999;
-}
+
 
 .main__imagem {
   background: url("../img/home.jpg");
-  opacity: .5;
   background-size: cover;
-  text-align: center;
-  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
+  text-align: center;
+  opacity: .8;
+  height: 500px;
+  margin-top: 72px;
 }
 
 .main__texto {
   padding-top: 100px;
 }
 
-.card {
-  border-color: #474747;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  
-}
 /* Main */
+
 
 /* Guia */
 .nav-tabs{
   padding: 2px;
-  
   display: flex;
-  
 }
+
+.guia {
+  background: url("../img/pattern.png");
+  background-repeat: repeat; 
+
+}
+
 /* Guia */
 .tab-content p{
   color: #000000;
 }
 
 /* Sobre */
-.sobre__div, .rest{
+.bairro__div, .rest{
   display: flex;
   justify-content: center;
 }
