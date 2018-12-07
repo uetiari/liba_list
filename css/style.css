@@ -20,7 +20,6 @@ a:hover {
   color: #a31621;
 }
 
-/* https://coolors.co/a31621-36393b-bfc0c0-ffffff-b0a1ba */
 
 /* NAVBAR */
 .navbar {
@@ -38,21 +37,14 @@ a:hover {
 /* fim NAVBAR */
 
 /* Main */
-
-
 .main__imagem {
-  background: url("../img/home.jpg");
+  background: url("../img/home6.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  opacity: .8;
-  height: 500px;
+  height: 80%;
   margin-top: 72px;
-}
-
-.main__texto {
-  padding-top: 100px;
 }
 
 /* Main */
@@ -65,20 +57,16 @@ a:hover {
 }
 
 .guia {
-  background: url("../img/pattern.png");
+  background: url("../img/pattern2.png");
   background-repeat: repeat; 
-
 }
-
 /* Guia */
-.tab-content p{
-  color: #000000;
-}
+
 
 /* Sobre */
 .bairro__div, .rest{
   display: flex;
   justify-content: center;
-}
 
+}
 /* sobre */
