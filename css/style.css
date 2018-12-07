@@ -38,7 +38,7 @@ a:hover {
 
 /* Main */
 .main__imagem {
-  background: url("../img/home6.jpg");
+  background: url("../img/home.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ a:hover {
 }
 
 .guia {
-  background: url("../img/pattern2.png");
+  background: url("../img/pattern.png");
   background-repeat: repeat; 
 }
 /* Guia */

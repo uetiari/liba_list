@@ -148,6 +148,7 @@ const result_cor = document.getElementById("cor-tab")
                     <h3>${item.name}</h3>
                     <p>${item.review}</p>
                     <p class="font-weight-bold" >Veja o endereço <a href="${item.local}" target="_blank">aqui</a> !
+                    <hr />
                 </div>
                 </div>
                 `
