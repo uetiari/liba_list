@@ -43,7 +43,7 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  height: 80%;
+  height: calc(100vh - 72px);
   margin-top: 72px;
 }
 
